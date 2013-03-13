@@ -33,9 +33,9 @@ Meeting agendas
 ##6 March 2013
 - Git basics by [Ivan Breet] (http://www.ivanbreet.com)
 - Vagrand & Chef by [Willem Coetzee] (http://willemcoetzee.wordpress.com/)
-- Drupal installation and configuration by [Rui Ferreira] (https://delicious.com/ruiferreira)
 
 ##3 April 2013
+- Drupal installation and configuration by [Rui Ferreira] (https://delicious.com/ruiferreira)
 
 ##1 May 2013
 
