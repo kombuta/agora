@@ -1,4 +1,4 @@
-angular-drupal-meetup-seed
+angular-drupal-meetup-seed [![Build Status](https://travis-ci.org/drupal-meetup/angular-drupal-meetup-seed.png?branch=master)](https://travis-ci.org/drupal-meetup/angular-drupal-meetup-seed)
 ==========================
 
 A Drupal/Angular project to simplify the running of various usergroup meetups.
