@@ -1,5 +1,8 @@
-angular-drupal-meetup-seed [![Build Status](https://travis-ci.org/drupal-meetup/angular-drupal-meetup-seed.png?branch=master)](https://travis-ci.org/drupal-meetup/angular-drupal-meetup-seed)
+Agora [![Build Status](https://travis-ci.org/drupal-meetup/agora.png?branch=master)](https://travis-ci.org/drupal-meetup/agora)
 ==========================
+Why **Agora**?
+
+*The agora (Greek: Ἀγορά, Agorá) was a central spot in ancient Greek city-states. The literal meaning of the word is "gathering place" or "assembly". The agora was the center of athletic, artistic, spiritual and political life of the city.[1] The Ancient Agora of Athens was the best-known example, birthplace of democracy.*
 
 A Drupal/Angular project to simplify the running of various usergroup meetups.
 
