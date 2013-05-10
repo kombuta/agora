@@ -19,9 +19,9 @@ Topics
 - __Social media integration__
 - __Usability testing__
 - __Accessibility__
-- __Security__
-- __Performance__
-- __Hosting__
+- __Security__ (Drupal Security / Hosting Security)
+- __Performance__ (apache, varnish, memcache, php opcache and bench marking) 
+- __Hosting__ (C Panel vs VPS vs AWS vs Dedicated and Aegir)
 - __Responsive design__
 - __Mobile apps__ (PhoneGap)
 - __Debugging__
