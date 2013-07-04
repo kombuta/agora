@@ -45,6 +45,7 @@ Meeting agendas
 ##5 June 2013
 
 ##3 July 2013
+- AngularJS by Dinesh Copoosamy - [code] (https://github.com/dineshcooper/angular-talk)
 
 ##7 August 2013
 
