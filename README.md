@@ -40,7 +40,8 @@ Meeting agendas
 ##3 April 2013
 - Drupal installation and configuration by [Rui Ferreira] (https://delicious.com/ruiferreira)
 
-##1 May 2013
+##8 May 2013
+Introduction SASS by Lancelot Nyachoto (http://sass-lang.com/)
 
 ##5 June 2013
 
