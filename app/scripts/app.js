@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularDrupalMeetupSeedApp', [])
+angular.module('agora', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

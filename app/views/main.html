@@ -1,9 +1,11 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div>
+  <h1>{{config.title}}</h1>
+  <p>{{config.desc}}</p>
+
+  <span>{{error}}</span>
+  <div>
+    <h3>{{event.title}}</h3>
+    <p>{{event.desc}}</p>
+    <span>{{event.date | date:'medium'}}</span>
+  </div>
 </div>
