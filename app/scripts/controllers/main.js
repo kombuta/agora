@@ -1,6 +1,6 @@
 'use strict';
 
-app.controller('MainCtrl', function ($scope, $http, configService) {
+agoraApp.controller('MainCtrl', function ($scope, $http, configService) {
   $scope.title = configService.title;
   $scope.desc = configService.desc;
 

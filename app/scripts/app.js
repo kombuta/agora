@@ -1,6 +1,8 @@
+/* exported agoraApp */
+
 'use strict';
 
-var app = angular.module('agora', [])
+var agoraApp = angular.module('agora', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
