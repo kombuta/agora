@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('agora', [])
+var app = angular.module('agora', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
