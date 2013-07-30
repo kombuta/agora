@@ -9,7 +9,6 @@ agoraApp.controller('MainCtrl', function ($scope, $http, configService) {
   events.then(function(obj) {
     $scope.event = obj.data;
   }, function(error) {
-    console.log(error);
     setError(error.status, error.data);
   });
 
