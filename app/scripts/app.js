@@ -1,6 +1,8 @@
+/* exported agoraApp */
+
 'use strict';
 
-angular.module('angularDrupalMeetupSeedApp', [])
+var agoraApp = angular.module('agora', ['LocalStorageModule'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
