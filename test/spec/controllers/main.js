@@ -9,7 +9,7 @@ describe('Controller: MainCtrl', function () {
         title: 'test',
         desc: 'test more',
         api: 'http://example.com/'
-      }
+      };
     });
   beforeEach(module('MainCtrl.Mock'));
 
@@ -42,9 +42,9 @@ describe('Controller: MainCtrl', function () {
     });
     this.$httpBackend.flush();
 
-    expect(scope.title).toBe('test');
-    expect(scope.desc).toBe('test more');
-    expect(scope.event).toBe(eventObj);
+    expect(scope.title).toEqual('test');
+    expect(scope.desc).toEqual('test more');
+    expect(scope.event).toEqual(eventObj);
     expect(scope.error).toBeUndefined();
   });
 
@@ -59,10 +59,10 @@ describe('Controller: MainCtrl', function () {
     });
     this.$httpBackend.flush();
 
-    expect(scope.title).toBe('test');
-    expect(scope.desc).toBe('test more');
+    expect(scope.title).toEqual('test');
+    expect(scope.desc).toEqual('test more');
     expect(scope.event).toBeUndefined();
-    expect(scope.error).toBe('Oops, a 500 error occurred. Please try again later.');
+    expect(scope.error).toEqual('Oops, a 500 error occurred. Please try again later.');
   });
 
   it('should handle errors correctly with data and a status', function () {
@@ -77,9 +77,9 @@ describe('Controller: MainCtrl', function () {
     });
     this.$httpBackend.flush();
 
-    expect(scope.title).toBe('test');
-    expect(scope.desc).toBe('test more');
+    expect(scope.title).toEqual('test');
+    expect(scope.desc).toEqual('test more');
     expect(scope.event).toBeUndefined();
-    expect(scope.error).toBe('Oops, a 500 error occurred. A test error.');
+    expect(scope.error).toEqual('Oops, a 500 error occurred. A test error.');
   });
 });
