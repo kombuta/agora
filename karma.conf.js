@@ -1,3 +1,4 @@
+'use strict';
 // Karma configuration
 module.exports = function(config) {
   config.set({
@@ -9,14 +10,20 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'app/bower_components/jquery/jquery.js',
       'app/bower_components/angular/angular.js',
-      'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/sass-bootstrap/dist/js/bootstrap.js',
+      'app/bower_components/angular-sanitize/angular-sanitize.js',
+      'app/bower_components/angular-route/angular-route.js',
+      'app/bower_components/angular-cookies/angular-cookies.js',
       'app/bower_components/angular-local-storage/angular-local-storage.js',
+
+      'app/bower_components/angular-mocks/angular-mocks.js',
       'app/scripts/app.js',
-      'app/scripts/**/*.js',
-      // 'test/mock/**/*.js',
-      'test/spec/**/*.js',
-      'app/**/*.html'
+      'app/scripts/{,*/}*.js',
+      // 'test/mock/{,*/}*.js',
+      'test/spec/{,*/}*.js',
+      'app/{,*/}*.html'
     ],
 
 
@@ -68,7 +75,7 @@ module.exports = function(config) {
     singleRun: false,
 
     preprocessors: {
-      'app/**/*.html': ['ng-html2js']
+      'app/{,*/}*.html': ['ng-html2js']
     },
 
     ngHtml2JsPreprocessor: {

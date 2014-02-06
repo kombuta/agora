@@ -2,7 +2,12 @@
 
 'use strict';
 
-var agoraApp = angular.module('agora', ['LocalStorageModule'])
+var agoraApp = angular.module('agora', [
+  'ngCookies',
+  'ngSanitize',
+  'ngRoute',
+  'LocalStorageModule'
+])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
