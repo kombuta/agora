@@ -1,4 +1,4 @@
-Agora [![Build Status](https://travis-ci.org/drupal-meetup/agora.png?branch=master)](https://travis-ci.org/drupal-meetup/agora)
+Agora [![Build Status](https://travis-ci.org/drupal-meetup/agora.png?branch=master)](https://travis-ci.org/drupal-meetup/agora) [![Dev Dependencies status](https://david-dm.org/drupal-meetup/agora/dev-status.png)](https://david-dm.org/drupal-meetup/agora#info=devDependencies)
 ==========================
 Why **Agora**?
 
