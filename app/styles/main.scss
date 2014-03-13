@@ -1,6 +1,18 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
+@font-face {
+    font-family: "Aleo";
+    src: url('fonts/aleo-regular-webfont.ttf') format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Aleo, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
 
 .browsehappy {
     margin: 0.2em 0;
@@ -13,6 +25,9 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Aleo";
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
